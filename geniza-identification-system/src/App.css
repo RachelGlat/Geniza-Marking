@@ -1,0 +1,165 @@
+.App-header {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.response {
+  margin-top: 10px;
+  white-space: pre-wrap;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 95%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  background-image: url('./abstract-487-publicdomainve.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding: 20px;
+}
+
+.open-file-picker-button:hover {
+  background-color: #9ed1f3;
+}
+.edit{
+  right: 5vw;
+  position: relative;
+  bottom: 52vh;
+}
+
+.edit-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.edit-textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.text-editor {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+.highlight {
+  background-color: #ADD8E6; /* Light blue background */
+}
+.open-file-picker-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d9e2e8;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+pre{
+  direction: rtl;
+  text-align: center;
+  font-size: 20px;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1); /* Light grey */
+  border-left: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 10px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.text-editor {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.edit {
+  margin-top: 20px;
+  right: 0vw;
+  position: relative;
+  bottom: 52vh;
+}
+
+.response {
+  margin-top: 10px;
+  white-space: pre-wrap;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  color: black;
+}
+
+
+button {
+  margin-top: 10px;
+}
+
+
+/* Center the textarea and button */
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text-editor {
+  width: 80%; /* Adjust width as needed */
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.button-container {
+  /* display: flex;
+  justify-content: flex-start; */
+  width: 100%; /* Match width of textarea */
+  margin-top: 10px;
+}
+
